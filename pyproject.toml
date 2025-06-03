@@ -32,6 +32,9 @@ tree-sitter-php = "^0.23.11"
 
 
 
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.0"
+
 [tool.vendoring]
 destination = "blarify/vendor"
 namespace = "blarify.vendor"
